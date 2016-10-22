@@ -3,7 +3,9 @@ Simple app to display bitcoin price in USD with also high and low value using Bi
 
 # Installation
 npm install - g coffee-script
+
 npm install
+
 coffee appc.js
 
 # View result
