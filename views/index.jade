@@ -1,0 +1,14 @@
+extend layout
+block content
+  p
+    | Valoarea Bitcoin in raport cu dolarul
+    | si ultimele valori maxime si minime
+    | ale bitcoin-ului din ultimele
+    | 24 de h
+block sidebar
+  .widget
+    h1 Bitcoin Widget 
+    ul 
+      li 1 BTC = #{last}$
+      li 24h High: #{high}$
+      li 24h Low: #{low}$
